@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.auth {
+  max-width: 600px;
+  margin: 10em auto;
+}
+
+.link {
+  background-color: transparent;
+  border: transparent;
+}
+
+.link:hover {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery {
+  column-count: 3;
+  column-gap: 0;
+  background: #000;
+}
+
+.gallery img {
+  object-fit: cover;
+}
+
+.gallery img:hover {
+  filter: grayscale(1);
+  transition: all 0.3s;
+}
+
+.cta {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://images.pexels.com/photos/315934/pexels-photo-315934.jpeg")
+      center center/cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  min-height: 40vh;
+}
+
+.reviews {
+  overflow-x: scroll;
+}
+
+.reviews .review {
+  max-width: 400px;
+  min-width: 400px;
+  width: 100%;
+}
